@@ -1,0 +1,361 @@
+@font-face {
+  font-family: CourierPrime;
+  src: url(../fonts/CourierPrime-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: CourierPrime;
+  src: url(../fonts/CourierPrime-Bold.ttf);
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "CourierPrime", sans-serif;
+}
+
+a {
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+.page1__text {
+  margin-top: 429px;
+  margin-left: 200px;
+}
+.page1_title {
+  margin-bottom: 10px;
+  font-size: 96px;
+}
+.page1_sub-title {
+  font-size: 32px;
+}
+.page1__registration {
+  background-color: #D9D9D9;
+  padding: 20px 33px;
+  max-width: 400px;
+  border-radius: 50px;
+  margin-left: 1100px;
+  margin-top: -400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page1__registration_reg-text {
+  font-size: 24px;
+  margin-bottom: 22px;
+  font-weight: 700;
+}
+.page1__registration_reg-name {
+  width: 350px;
+  padding: 12px 24px;
+  color: #8A8A8A;
+  background-color: #fff;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+.page1__registration_reg-tel {
+  width: 350px;
+  padding: 12px 24px;
+  color: #8A8A8A;
+  background-color: #fff;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+.page1__registration_reg-email {
+  width: 350px;
+  padding: 12px 24px;
+  color: #8A8A8A;
+  background-color: #fff;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+.page1__registration_reg-stick1 {
+  margin-top: -2px;
+  margin-bottom: 3px;
+}
+.page1__registration_reg-login {
+  width: 350px;
+  padding: 12px 24px;
+  color: #8A8A8A;
+  background-color: #fff;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+.page1__registration_reg-pass {
+  width: 350px;
+  padding: 12px 24px;
+  color: #8A8A8A;
+  background-color: #fff;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  margin-bottom: 24px;
+}
+.page1__registration_reg-btn {
+  font-size: 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 30px;
+  cursor: pointer;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+.page1__registration_reg-sub-title {
+  font-weight: 700;
+  color: #000;
+  font-size: 24px;
+}
+.page1__registration_reg-sign-up {
+  font-weight: 700;
+  margin-left: 112px;
+  font-size: 24px;
+}
+.page1__arrow {
+  margin-left: 920px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.page1__line {
+  margin-left: 100px;
+}
+
+.page2 {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.page2__about-us {
+  font-size: 64px;
+  margin-bottom: 15px;
+}
+.page2__supports {
+  font-size: 40px;
+  font-weight: 700;
+}
+.page2__sub-supports {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.page2__price {
+  font-size: 40px;
+  font-weight: 700;
+}
+.page2__sub-price {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.page2__quality {
+  font-size: 40px;
+  font-weight: 700;
+}
+.page2__sub-quality {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.page2__advantages {
+  font-size: 64px;
+  margin-top: 90px;
+  margin-bottom: 15px;
+}
+.page2__hotels {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.page2__sub-hotels {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.page2__payment {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.page2__sub-payment {
+  font-size: 32px;
+  margin-bottom: 100px;
+}
+.page2__arrow {
+  margin-left: 720px;
+  margin-bottom: 50px;
+}
+.page2__line {
+  margin-left: -100px;
+  margin-bottom: 10px;
+}
+
+.page3 {
+  margin-left: 200px;
+}
+.page3__catalog {
+  font-size: 64px;
+  margin-bottom: 15px;
+}
+.page3__cities {
+  margin-left: 100px;
+  display: flex;
+  gap: 47px;
+}
+.page3__Moscow {
+  font-size: 40px;
+  font-weight: 700;
+}
+.page3__Moscow-title {
+  margin-left: 120px;
+}
+.page3__Moscow-price {
+  margin-left: 95px;
+}
+.page3__SPB {
+  font-size: 40px;
+  font-weight: 700;
+}
+.page3__SPB-title {
+  margin-left: 20px;
+}
+.page3__SPB-price {
+  margin-left: 95px;
+}
+.page3__Sochi {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.page3__Sochi-title {
+  margin-left: 140px;
+}
+.page3__Sochi-price {
+  margin-left: 95px;
+}
+.page3__catalog-full {
+  font-weight: 700;
+  font-size: 32px;
+  margin-left: 520px;
+  margin-bottom: 33px;
+}
+.page3__review {
+  font-size: 64px;
+  margin-bottom: 14px;
+}
+.page3__reviews {
+  margin-left: 100px;
+  display: flex;
+  gap: 100px;
+  margin-bottom: 14px;
+}
+.page3__review-1 {
+  background-color: #D9D9D9;
+  border-radius: 50px;
+  padding: 28px 33px;
+}
+.page3__review-1-name-img {
+  display: flex;
+  margin-bottom: 30px;
+}
+.page3__review-1-name {
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.page3__review-1-text {
+  background-color: #fff;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 50px;
+}
+.page3__review-2 {
+  background-color: #D9D9D9;
+  border-radius: 50px;
+  padding: 28px 33px;
+}
+.page3__review-2-img-name {
+  display: flex;
+  margin-bottom: 30px;
+}
+.page3__review-2-name {
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.page3__review-2-text {
+  background-color: #fff;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 50px;
+}
+.page3__review-3 {
+  background-color: #D9D9D9;
+  border-radius: 50px;
+  padding: 28px 33px;
+}
+.page3__review-3-name-img {
+  display: flex;
+  margin-bottom: 30px;
+}
+.page3__review-3-name {
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.page3__review-3-text {
+  background-color: #fff;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 50px;
+}
+.page3__line {
+  margin-bottom: 15px;
+}
+
+.page4 {
+  margin-left: 200px;
+  margin-bottom: 40px;
+}
+.page4__mailing {
+  margin-bottom: 20px;
+  font-size: 64px;
+}
+.page4__forms {
+  margin-left: 340px;
+  display: flex;
+  gap: 100px;
+}
+.page4__forms_name {
+  padding: 26px 86px;
+  background-color: #D9D9D9;
+  border-radius: 50px;
+}
+.page4__forms_name-form {
+  font-size: 40px;
+  font-weight: 700;
+  border: none;
+}
+.page4__forms_email {
+  padding: 26px 86px;
+  background-color: #D9D9D9;
+  border-radius: 50px;
+}
+.page4__forms_email-emailform {
+  font-size: 40px;
+  font-weight: 700;
+  border: none;
+}
+
+.footer {
+  background-color: #D9D9D9;
+}
+.footer__main {
+  color: #8A8A8A;
+  padding: 100px 200px;
+  display: flex;
+  gap: 500px;
+  font-size: 40px;
+  font-weight: 700;
+}
